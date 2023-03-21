@@ -5,9 +5,113 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+.container{
+  max-width:550px;
+  min-height: 100vh;
+  margin:auto;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+
+ 
+}
+
+/* NavBar classes */
+.nav{
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 5px 15px #dbdbdb;
+  display: flex;
+  align-items: center;  
+}
+
+.nav--logo{
+  height:25px;
+  margin-left: 30px;
+}
+
+
+/* Hero section decorators */
+.hero--section{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--image{
+  height: 232px;
+  align-self: center;
+  
+}
+
+.hero--content{
+  max-width: 300px;
+  margin-left: 36px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card Section box */
+.card--section{
+  display: flex;
+  margin: 36px;
+  
+
+}
+
+/* Card decorators */
+
+.card--container{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 176px;
+  margin-right: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card--image{
+  width: 176px;
+}
+
+.card--tag{
+  position: absolute;
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+  border-radius: 5px; 
+  top: 6px;
+  left: 6px;
+}
+.card--details{
+  max-width: 176px;
+}
+
+.card--status{
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+}
+
+.card--rating--icon{
+  width: 14px;
+  height: 14px;
+}
+
+.card--content{
+  font-weight: 300;
 }
