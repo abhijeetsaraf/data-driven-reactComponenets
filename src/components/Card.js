@@ -8,7 +8,7 @@ export default function Card(props){
             <div>
                 <img className='card--image' 
                 src= {require(`../images/${props.image}`)} alt=""/>
-                <div className='card--tag'>SOLD OUT</div>
+                {!props.openSpots && <div className='card--tag'>SOLD OUT</div>}
             </div>
             <div className='card--details'>
                 <div className='card--status'>

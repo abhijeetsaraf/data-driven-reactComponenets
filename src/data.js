@@ -3,6 +3,7 @@ export default [
     {
         id:1,
         image:"image-1.png",
+        openSpots:0,
         rating:"5",
         ratingCount:"6",
         country:"USA",
@@ -12,15 +13,18 @@ export default [
     {
         id:2,
         image:"image-2.png",
+        openSpots:2,
         rating:"5",
         ratingCount:"30",
         country:"USA",
         title:"Learn wedding photography",
         cost:"125"
+        
     },
     {
-        id:1,
+        id:3,
         image:"image-3.png",
+        openSpots:2,
         rating:"4.8",
         ratingCount:"6",
         country:"USA",
@@ -28,8 +32,9 @@ export default [
         cost:"50"
     },
     {
-        id:1,
+        id:4,
         image:"image-3.png",
+        openSpots:2,
         rating:"4.8",
         ratingCount:"6",
         country:"USA",
