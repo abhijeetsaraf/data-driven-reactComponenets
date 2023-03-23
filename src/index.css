@@ -53,6 +53,7 @@ code {
 }
 
 .hero--image{
+  margin-top: 15px;
   height: 232px;
   align-self: center;
   

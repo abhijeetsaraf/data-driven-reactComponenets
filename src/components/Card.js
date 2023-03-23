@@ -6,15 +6,16 @@ export default function Card(props){
     return(
         <div className='card--container'>
             <div>
-                <img className='card--image' src={props.image} alt=""/>
+                <img className='card--image' 
+                src= {require(`../images/${props.image}`)} alt=""/>
                 <div className='card--tag'>SOLD OUT</div>
             </div>
             <div className='card--details'>
                 <div className='card--status'>
                     <img src={star} alt="" className='card--rating--icon'/>
                     <div> ({props.rating})</div>
-                    <div>{props.ration_count}</div>
-                    <div>USA</div>
+                    <div>{props.ratingCount}</div>
+                    <div>{props.country}</div>
                 </div>
                 <div>
                     <div className='card--content'>{props.title}</div>
@@ -25,9 +26,6 @@ export default function Card(props){
 
     )
 }
-            // image = "../images/image-1.png"
-            // rating = "5"
-            // ration_count = "6"
-            // country ="USA"
-            // title ="Life lessons with Katie Zaffer"
-            // cost ="136" 
+          
+//<img src={`/img/${this.props.product.src}.png`} width="50" />
+//image:"../images/image-3.png",
