@@ -7,19 +7,19 @@ export default function Card(props){
         <div className='card--container'>
             <div>
                 <img className='card--image' 
-                src= {require(`../images/${props.image}`)} alt=""/>
-                {!props.openSpots && <div className='card--tag'>SOLD OUT</div>}
+                src= {require(`../images/${props.item.image}`)} alt=""/>
+                {!props.item.openSpots && <div className='card--tag'>SOLD OUT</div>}
             </div>
             <div className='card--details'>
                 <div className='card--status'>
                     <img src={star} alt="" className='card--rating--icon'/>
-                    <div> ({props.rating})</div>
-                    <div>{props.ratingCount}</div>
+                    <div> ({props.item.rating})</div>
+                    <div>{props.item.ratingCount}</div>
                     <div>{props.country}</div>
                 </div>
                 <div>
-                    <div className='card--content'>{props.title}</div>
-                    <div className='card--content'><strong>From ${props.cost}</strong> / person</div>
+                    <div className='card--content'>{props.item.title}</div>
+                    <div className='card--content'><strong>From ${props.item.cost}</strong> / person</div>
                 </div>
             </div>
         </div>

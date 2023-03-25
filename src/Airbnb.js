@@ -8,13 +8,8 @@ function Airbnb(){
     const cards = data.map(x => {
         return (<Card
         key={x.id}
-        image={x.image}
-        rating={x.rating}
-        ratingCount={x.ratingCount}
-        country={x.country}
-        title={x.title}
-        cost={x.cost}
-        openSpots={x.openSpots}
+        item={x}
+        
         />
         )
       })

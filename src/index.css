@@ -30,6 +30,128 @@ code {
  
 }
 
+/* TRAVEL JOURNAL CSS */
+/* Nav bar  */
+.t--nav{
+  height: 55px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+}
+
+/* travel page logo */
+.t--nav-content{
+  display: flex;
+  align-items: center;
+}
+
+.t--nav-logo{
+  padding-bottom: 2px;
+}
+
+.t--nav-title{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-left: 7px;
+}
+
+
+/* Flex image and card details side by side */
+.t--card-container{
+ display: flex;
+ margin-top: 45px;
+ margin-bottom: -9px;
+ justify-content: center ;
+ 
+}
+
+
+.t--card-image{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  position: relative; 
+  margin-left: 20px;
+  border-radius: 5px;
+
+}
+
+.t--card-image img {
+  position: absolute; /* Set the image position to absolute */
+  top: 50%; /* Move the top of the image to the middle of the container */
+  left: 50%; /* Move the left of the image to the middle of the container */
+  transform: translate(-50%, -50%); /* Translate the image to center it */
+ /* Make the image width adjust to the container size */
+  height: 100%; /* Make the image height match the container height */
+  object-fit: cover; /* Scale the image to cover the container while maintaining its aspect ratio */
+}
+
+.t--card-content{
+  max-width: 326px;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 0px 0px 20px;
+/* top right bottom left */
+}
+
+
+.t--card-locationitems{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  
+}
+
+.t--card-locationitems img,div{
+  margin-right: 5px;
+}
+
+.t--card-locationlogo{
+  width: 7px;
+  height: 10px;
+}
+
+/* .t--card-locationname{
+
+} */
+
+.t--card-locationlink{
+  color: #918E9B;
+  text-decoration: underline;
+
+}
+
+.t--card-title{
+  margin:0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.t--card-date{
+  padding-top:10px ;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.t--card-details{
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* NavBar classes */
 .nav{
   height: 70px;
