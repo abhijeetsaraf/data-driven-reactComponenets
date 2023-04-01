@@ -8,8 +8,7 @@ function Airbnb(){
     const cards = data.map(x => {
         return (<Card
         key={x.id}
-        item={x}
-        
+        item={x} 
         />
         )
       })

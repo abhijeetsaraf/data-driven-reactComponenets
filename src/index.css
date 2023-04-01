@@ -30,6 +30,76 @@ code {
  
 }
 
+
+/* MEME GENERATOR CSS */
+/* NAV CLASSES */
+.m--nav{
+  height:65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display:flex;
+
+}
+.m--nav-content{
+  display: flex;
+  align-items: center;
+}
+.m--nav-logo{
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.m--nav-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-family: 21px;
+  color: white;
+}
+.m--nav-subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: white; 
+  float: right; 
+}
+
+
+.m--form{
+  max-width: 95%;
+  margin-left: 20px;
+  
+}
+.m--inputfield-container{
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+.m--inputfield{
+  padding: 15px;
+  margin-right: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+.m--button{
+  border: none;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  width: 98%;
+}
+.m--imagebox{
+  width: 95%;
+  height: 400px;
+  margin: 10px;
+  border-color: #918E9B;
+  background-color: #F55A5A;
+}
+
+
 /* TRAVEL JOURNAL CSS */
 /* Nav bar  */
 .t--nav{
@@ -136,19 +206,6 @@ code {
   font-size: 11px;
   margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
