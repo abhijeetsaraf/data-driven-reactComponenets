@@ -1,7 +1,6 @@
-# React static page
+# React assignments from the Free code camp tutorials 
 
-We will be exploring data driven component design in this page with help of Airbnb landing lage example. 
+## Available projects
 
-## Available Scripts
-
-In the project directory, you can run:
+Data driven componenets 
+React routers
