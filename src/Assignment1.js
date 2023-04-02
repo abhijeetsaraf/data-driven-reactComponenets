@@ -1,50 +1,35 @@
 
 import React from "react"
 
-export default function(){
-    //const [things, setThings] = React.useState(["Things1","Things2"])
-    
-    //const items = things.map(x => <p key={x}>{x}</p>)
-     
     //Initializing the component with a default value with state
     //React.useState will return an Array
     // Array destructuring 
+
+    //NOTE:
+    // If you ever need the old value of state to help you determine the new value if state
+    // you should pass a callback function to your state setter function instead of using state directly.
+    // This callback function will receive the old value of state as its parameter, which you can 
+    // use to determine your new value of state. 
+
+
+
+export default function(){
     
     const [count, setCount] = React.useState(0);
     console.log(count)
     
 
+    //example with best practice
+
     function add(){
-        setCount(count+1)
+        setCount(function(prevState){ return (prevState + 1)})
     }
 
     function sub(){
-        setCount(count-1)
+        setCount(function(prevState){ return (prevState + 1)})
     }
 
-    // function addItems(){
-    //    const newThingText = `Things ${things .length+1}`
-    //    setThings(prevState => [...prevState, newThingText])
-       
-    // }
-    
-    // function greeting(name){
-    //     const date = new Date()
-    //     const hours = date.getHours()   
-    //     //console.log(hours)
-    //     let time
 
-    //     if(hours >= 4 && hours < 12){
-    //         time = "morning"
-    //     } else if ( hours >= 12 && hours < 17){
-    //         time = "afternoon"
-    //     } else if ( hours >= 17 && hours < 20){
-    //         time = "night"
-    //     }
-    //     return `Good ${time}, ${name}`
-    // }
-    // console.log(greeting("John"))
-    
     return(
         
         <div>
