@@ -2,15 +2,31 @@
 import React from "react"
 
 export default function(){
-    const [things, setThings] = React.useState(["Things1","Things2"])
-    const items = things.map(x => <p key={x}>{x}</p>)
+    //const [things, setThings] = React.useState(["Things1","Things2"])
+    
+    //const items = things.map(x => <p key={x}>{x}</p>)
      
+    //Initializing the component with a default value with state
+    //React.useState will return an Array
+    // Array destructuring 
+    
+    const [count, setCount] = React.useState(0);
+    console.log(count)
+    
 
-    function addItems(){
-       const newThingText = `Things ${things.length+1}`
-       setThings(prevState => [...prevState, newThingText])
-       
+    function add(){
+        setCount(count+1)
     }
+
+    function sub(){
+        setCount(count-1)
+    }
+
+    // function addItems(){
+    //    const newThingText = `Things ${things .length+1}`
+    //    setThings(prevState => [...prevState, newThingText])
+       
+    // }
     
     // function greeting(name){
     //     const date = new Date()
@@ -32,9 +48,13 @@ export default function(){
     return(
         
         <div>
-            <button onClick={addItems}>Add to list</button>
-            
-            {items}
+            <button  onClick={add}>+ Add</button>
+            <button  onClick={sub}>- Sub</button>
+            <div>
+                <h1>
+                    {count}
+                </h1>
+            </div>
             
         </div>
     )
