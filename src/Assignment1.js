@@ -20,13 +20,15 @@ export default function(){
     
 
     //example with best practice
+    //Can also be done through arrow function 
+    // setCount( preState => prevState + 1 )
 
     function add(){
         setCount(function(prevState){ return (prevState + 1)})
     }
-
+ 
     function sub(){
-        setCount(function(prevState){ return (prevState + 1)})
+        setCount(function(prevState){ return (prevState - 1)})
     }
 
 

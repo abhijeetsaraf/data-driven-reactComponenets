@@ -92,11 +92,40 @@ code {
   width: 98%;
 }
 .m--imagebox{
-  width: 95%;
-  height: 400px;
-  margin: 10px;
-  border-color: #918E9B;
-  background-color: #F55A5A;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.m--image{
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  
+}
+
+
+.m--toptext{
+  position: absolute;
+  top:20%;
+  left: 45%;
+  color: black;
+  font-size:36px;
+  font-weight: 700;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  
+}
+
+.m--bottomtext{
+  position: absolute;
+  top:80%;
+  left: 45%;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size:36px;
+  font-weight: 700;
 }
 
 
