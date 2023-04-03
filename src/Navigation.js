@@ -12,6 +12,7 @@ function Navigation(){
                 <Link to="/assignment1"><li>- Assignment 1 - Counter</li></Link>
                 <Link to="/assignment2"><li>- Assignment 2 - Flip the text through states Yes - No </li></Link>
                 <Link to="/assignment3"><li>- Assignment 3 - Add items to list - Compelex State Array </li></Link>
+                <Link to="/assignment4"><li>- Assignment 4 - Toggle favorite button - Complex States Objects </li></Link>
             </ul>
         </div>
     )
