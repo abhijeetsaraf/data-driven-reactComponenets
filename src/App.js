@@ -5,6 +5,8 @@ import Airbnb from './Airbnb';
 import Navigation from './Navigation';
 import Memegenerator from './Memegenerator';
 import Assignment1 from './Assignment1';
+import Assignment2 from './Assignment2';
+import Assignment3 from './Assignment3';
 
 function App() {
     
@@ -17,6 +19,8 @@ function App() {
           <Route path='/travel' Component={Travel}/>
           <Route path='/memegenerator' Component={Memegenerator}/>
           <Route path='/assignment1' Component={Assignment1}/>
+          <Route path='/assignment2' Component={Assignment2}/>
+          <Route path='/assignment3' Component={Assignment3}/>
         </Routes>
       </div>
     </Router>
