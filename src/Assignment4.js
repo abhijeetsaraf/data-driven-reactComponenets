@@ -2,6 +2,7 @@ import './index.css';
 import React from "react";
 import starDeselected from "./images/star-deselcted.png";
 import starSelected from "./images/star-selected.png";
+import Star from './components/Star';
 
 
 export default function(){
@@ -15,17 +16,19 @@ export default function(){
     console.log(contact)
 
     function toggleFavorite(){
-       setContact(prevState => {
-        return{...prevState, isFavorite: !prevState.isFavorite }})   
+        setContact(prevState => {
+            return {...prevState, isFavorite: !prevState.isFavorite}
+        })
+
     }
-    
+     
     return(
         <main>
             <div>
                 <h1>A</h1>
             </div>
             <div onClick={toggleFavorite}>
-                <img src={contact.isFavorite ? starSelected : starDeselected}/>
+                <Star isFavorite={contact.isFavorite}/>
             </div>
             <h3>{contact.firstName} {contact.lastName}</h3>
             <div>{contact.phone}</div>
