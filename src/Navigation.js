@@ -13,6 +13,7 @@ function Navigation(){
                 <Link to="/assignment2"><li>- Assignment 2 - Flip the text through states Yes - No </li></Link>
                 <Link to="/assignment3"><li>- Assignment 3 - Add items to list - Compelex State Array </li></Link>
                 <Link to="/assignment4"><li>- Assignment 4 - Toggle favorite button - Complex States Objects </li></Link>
+                <Link to="/assignment5"><li>- Assignment 5 - Passing data to both the child component</li></Link>
             </ul>
         </div>
     )
