@@ -29,6 +29,32 @@ code {
 
  
 }
+/* BOXES */
+.b--box{
+  width:60px;
+  height:60px;
+  display: inline-block;
+  margin:5px;
+  border-radius: 5px;
+}
+
+.b--empty{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: #918E9B;
+  margin: 5px; 
+}
+
+.b--filled{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(41, 133, 238);
+  border-style: solid;
+  border-color: #3b3b3b;
+  margin: 5px; 
+}
 
 
 /* MEME GENERATOR CSS */

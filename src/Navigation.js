@@ -14,6 +14,7 @@ function Navigation(){
                 <Link to="/assignment3"><li>- Assignment 3 - Add items to list - Compelex State Array </li></Link>
                 <Link to="/assignment4"><li>- Assignment 4 - Toggle favorite button - Complex States Objects </li></Link>
                 <Link to="/assignment5"><li>- Assignment 5 - Passing data to both the child component</li></Link>
+                <Link to="/assignment6"><li>- Assignment 6 - Render boxes from data file and change boolen pram</li></Link>
             </ul>
         </div>
     )

@@ -9,6 +9,7 @@ import Assignment2 from './Assignment2';
 import Assignment3 from './Assignment3';
 import Assignment4 from './Assignment4';
 import Assignment5 from './Assignment5';
+import Assignment6 from './Assignment6';
 
 function App() {
     
@@ -25,6 +26,7 @@ function App() {
           <Route path='/assignment3' Component={Assignment3}/>
           <Route path='/assignment4' Component={Assignment4}/>
           <Route path='/assignment5' Component={Assignment5}/>
+          <Route path='/assignment6' Component={Assignment6}/>
         </Routes>
       </div>
     </Router>
