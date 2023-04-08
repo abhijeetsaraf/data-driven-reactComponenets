@@ -15,6 +15,7 @@ function Navigation(){
                 <Link to="/assignment4"><li>- Assignment 4 - Toggle favorite button - Complex States Objects </li></Link>
                 <Link to="/assignment5"><li>- Assignment 5 - Passing data to both the child component</li></Link>
                 <Link to="/assignment6"><li>- Assignment 6 - Render boxes from data file and change boolen pram</li></Link>
+                <Link to="/jokes"><li>Joke app for conditional rendering</li></Link>
             </ul>
         </div>
     )

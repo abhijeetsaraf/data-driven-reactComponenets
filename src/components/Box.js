@@ -22,8 +22,11 @@ export default function Box(props){
     // which box was clicked. 
     return(
         <div>
-            <div style={styles} id="tile"
-            className="b--box" onClick={() => props.tf(props.id)}></div>
+            <div 
+                style={styles}
+                className="b--box" 
+                onClick={() => props.tf(props.id)}>
+            </div>
 
         </div>
     )

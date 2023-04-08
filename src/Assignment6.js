@@ -26,8 +26,6 @@ export default function(){
         })
     }
     
-    
-
     //The below method is imperative in nature not declarative! 
     //Alternative method above
     // function toggle(id){
