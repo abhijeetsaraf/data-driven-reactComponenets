@@ -16,25 +16,37 @@ export default function(){
     //Alternative method. Rather then creating toggle function with
     //every BOX componenet we will pass toggle function through the
     // App componenet ( Assignment6.js )
-  
-  
+    
+    //Declarative method to solve the problem
     function toggle(id){
-        setAllSquares( prevSquares => {
-            const newSquare = []
-            for(let i = 0; i < prevSquares.length; i++){
-                const currentSquare = prevSquares[i]
-                if(currentSquare.id === id){
-                    const updatedSquare = { 
-                        ...currentSquare, on: !currentSquare.on
-                    }
-                    newSquare.push(updatedSquare)
-                }else{
-                    newSquare.push(currentSquare)
-                }
-            }
-            return newSquare
+        setAllSquares(prevSquare => {
+            return prevSquare.map(x => {
+                return x.id === id ? { ...x, on: !x.on} : x
+            })
         })
-    }    
+    }
+    
+    
+
+    //The below method is imperative in nature not declarative! 
+    //Alternative method above
+    // function toggle(id){
+    //     setAllSquares( prevSquares => {
+    //         const newSquare = []
+    //         for(let i = 0; i < prevSquares.length; i++){
+    //             const currentSquare = prevSquares[i]
+    //             if(currentSquare.id === id){
+    //                 const updatedSquare = { 
+    //                     ...currentSquare, on: !currentSquare.on
+    //                 }
+    //                 newSquare.push(updatedSquare)
+    //             }else{
+    //                 newSquare.push(currentSquare)
+    //             }
+    //         }
+    //         return newSquare
+    //     })
+    // }    
     
     
     //We need to note here that the setAllSquares f(x) is an 
