@@ -12,6 +12,7 @@ import Assignment5 from './Assignment5';
 import Assignment6 from './Assignment6';
 import Jokes from './Jokes';
 import Forms from './Forms';
+import Forms2 from './Forms2';
 function App() {
     
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/assignment6' Component={Assignment6}/>
           <Route path='/jokes' Component={Jokes}/>
           <Route path='/forms' Component={Forms}/>
+          <Route path='/forms2' Component={Forms2}/>
         </Routes>
       </div>
     </Router>

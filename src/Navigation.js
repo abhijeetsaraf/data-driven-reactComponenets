@@ -17,6 +17,7 @@ function Navigation(){
                 <Link to="/assignment6"><li>- Assignment 6 - Render boxes from data file and change boolen pram</li></Link>
                 <Link to="/jokes"><li>Joke app for conditional rendering</li></Link>
                 <Link to="/forms"><li>React forms</li></Link>
+                <Link to="/forms2"><li>Login form</li></Link>
             </ul>
         </div>
     )
