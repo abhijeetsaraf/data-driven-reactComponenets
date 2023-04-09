@@ -26,9 +26,16 @@ code {
   margin-top: 10px;
   background-color: white;
   border-radius: 10px 10px 0px 0px;
-
- 
 }
+
+/* FORMS */
+.f--form{
+  display:flex;
+  flex-direction: column;
+  margin:20px;
+}
+
+
 /* BOXES */
 .b--box{
   width:60px;

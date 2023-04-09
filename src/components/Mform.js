@@ -9,6 +9,9 @@ export default function(){
     const[topText, setTopText] = React.useState("meme lol")
     const[bottomText, setBottomText] = React.useState("meme loller")
     
+    
+    //This can also be handled with event.targer.value
+    //setTopText(event.target.value)
     function top(){
         const topText = document.getElementById("topText").value
         console.log(topText)
@@ -35,6 +38,7 @@ export default function(){
         
     }
     
+    //Alternative to onInput is also onChange
     return(
         <form className="m--form">
             <div className="m--inputfield-container">

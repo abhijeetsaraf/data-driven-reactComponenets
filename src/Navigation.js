@@ -16,6 +16,7 @@ function Navigation(){
                 <Link to="/assignment5"><li>- Assignment 5 - Passing data to both the child component</li></Link>
                 <Link to="/assignment6"><li>- Assignment 6 - Render boxes from data file and change boolen pram</li></Link>
                 <Link to="/jokes"><li>Joke app for conditional rendering</li></Link>
+                <Link to="/forms"><li>React forms</li></Link>
             </ul>
         </div>
     )
